@@ -1,3 +1,5 @@
+// sum of digits
+
 #include<stdio.h>
 int main(){
     int num,sum=0;
@@ -9,7 +11,7 @@ int main(){
         temp =temp/10;
 
     }
-    printf("sum = %d",sum);
+    printf("sum of %d = %d",num,sum);
 
     return 0;
 }
