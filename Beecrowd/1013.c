@@ -8,5 +8,5 @@ int main()
   majorAB = (num1+num2+abs(num1-num2))/2;
   major = (majorAB+num3+abs(majorAB-num3))/2;
   printf("%d eh o maior\n",major);
-
+  return 0;
 }

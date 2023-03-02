@@ -6,5 +6,6 @@ int main()
     scanf("%d %f",&distace,&spentFuel);
     average =distace/spentFuel;
     printf("%.3f km/l\n",average);
-
+    
+    return 0;
 }
