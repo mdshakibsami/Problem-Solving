@@ -5,7 +5,10 @@ int main()
     scanf("%d",&testCase);
     while (testCase--)
     {
-        scanf("%d %d %d",);
+       printf("zisan\n");
+
+
+        
     }
     
 
