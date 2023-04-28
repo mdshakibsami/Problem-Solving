@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int testCase;
+    int testCase,n;
     scanf("%d",&testCase);
     while (testCase--)
     {
-       printf("zisan\n");
+ 
+        scanf("%d",&n);
+        printf("%d\n",n/2);
 
 
         
