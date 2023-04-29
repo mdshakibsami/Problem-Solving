@@ -9,7 +9,7 @@ int main()
         if(students>sets)
             printf("%d\n",students-sets);
         else
-            printf("%d",0);
+            printf("%d\n",0);
     }
 
     return 0;
