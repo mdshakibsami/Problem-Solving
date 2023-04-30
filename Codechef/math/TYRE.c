@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int testCase,bikes,cars;
+    int testCase,bike,car;
     scanf("%d",&testCase);
     while(testCase--)
     {
