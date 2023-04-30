@@ -5,8 +5,8 @@ int main()
     scanf("%d",&testCase);
     while(testCase--)
     {
-        scanf("%d%d",&bikes,&cars);
-        printf("%d\n",(bikes*2+cars*4));
+        scanf("%d%d",&bike,&car);
+        printf("%d\n",(bike*2+car*4));
 
 
     }
