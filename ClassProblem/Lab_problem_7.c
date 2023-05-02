@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int n, i, row, col;
+    scanf("%d", &n);
+
+    for (row = 1; row <= n; row++)
+    {
+        int p = 1;
+        for (col = 1; col <= row; col++)
+        {
+            printf("%d ", p);
+            p = p * (row - col) / col;
+        }
+        printf("\n");
+    }
+
+    return 0;
+}

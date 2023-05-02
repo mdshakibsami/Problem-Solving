@@ -1,9 +1,10 @@
 // sum of digits
 
+
 #include<stdio.h>
 int main(){
     int num,sum=0;
-    printf("Enter a number");
+    printf("Enter a number: ");
     scanf("%d",&num);
     int temp =num;
     while(temp>0){
