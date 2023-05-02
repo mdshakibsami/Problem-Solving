@@ -6,7 +6,7 @@ For  example: 1221 or Oppo etc. Write Program to check whether a Number is a Pal
 Input
 Ask user to enter an integer or string from console.
 Output
-Output yes or no depending on the user’s input.
+Output yes or no depending on the userï¿½s input.
 Sample
 Enter an integer: 1221
 Palindrome? Yes
@@ -16,7 +16,7 @@ Palindrome? Yes
 #include<stdio.h>
 int main(){
 
-printf("Enter a number to check palindrome or not \n");
+printf("Enter a number: ");
 int n,r,temp,rev=0;
 scanf("%d",&n);
 temp = n;
