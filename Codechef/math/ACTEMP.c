@@ -6,12 +6,10 @@ int main()
     while(testCase--)
     {
         scanf("%d%d%d",&a,&b,&c);
-        if(a>c && c<b)
-            printf("YES\n");
-        else if(c>a && a<b)
+        if(b>=a && b>=c)
             printf("YES\n");
         else
-            printf("NO\n");
+            printf("No\n");
 
 
     }
