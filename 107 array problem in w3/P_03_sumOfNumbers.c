@@ -1,14 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,num[n];
+    int i,n,num[n],sum=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-
         scanf("%d",&num[i]);
-        num[n-1-i]=num[i];
-        printf("%d ",num[i]);
+        sum=sum+num[i];
     }
-   
+    printf("%d",sum);
 }
