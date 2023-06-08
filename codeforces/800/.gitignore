@@ -1,7 +1,9 @@
-mrPerfectlyFine.cpp
+
 musicalPuzzle.cpp
 SecondOrderStatistics.cpp
 letter.cpp
-flag.cpp
+mrPerfectlyFine.cpp
 army.cpp
+flag.cpp
+
 *.exe
