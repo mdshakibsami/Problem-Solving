@@ -1,1 +1,1 @@
-if(str[i]=='.')
+flag = true;
