@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//logic matters then testCase
 int main()
 {
     int t;
