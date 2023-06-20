@@ -20,9 +20,9 @@ int main()
         {
             for(int j=i+1;j<n;j++)
             {
-                long long x= num[i]*num[j];
-                if((x)>max)
-                    max=x;
+                
+                if((num[i]*num[j])>max)
+                    max=num[i]*num[j];
             }
         }
         cout<<max<<endl;
