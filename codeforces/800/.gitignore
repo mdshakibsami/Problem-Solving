@@ -7,4 +7,5 @@ army.cpp
 flag.cpp
 test.cpp
 EvenOddIncrement.cpp
+TheatreSquare.cpp
 *.exe
