@@ -1,33 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
-// occurs signed integer overflow,then i used long long
+ 
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    string s,result="";
+    cin>>s;
+    //remove douplicate
+    int arr[123]={0};
+    for(int i=0;i<s.size();i++)
     {
-        int n;
-        cin >> n;
-        long long arr[n];
-        for (int i = 0; i < n; i++)
+        if(arr[s[i]]==0)
         {
-            cin >> arr[i];
+            arr[s[i]]=1;
+            result+=s[i];
         }
-        long long max = INT_MIN;
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = i + 1; j < n; j++)
-            {
 
-                if ((arr[i] * arr[j]) > max)
-                {
-                    max = arr[i] * arr[j];
-                    
-                }
-            }
-        }
-        cout << max << endl;
     }
+    if(result.size() % 2==0) cout<<"CHAT WITH HER!"<<endl;
+    else cout<<"IGNORE HIM!"<<endl;
 }
