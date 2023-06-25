@@ -1,33 +1,22 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+ 
 
 int main()
 {
-    string s;
-    int i,j;
+    string s,result="";
     cin>>s;
-    int count=0,x=s.size();
-    for( i=0;i<s.size();i++)
+    //remove douplicate
+    int arr[123]={0};
+    for(int i=0;i<s.size();i++)
     {
-        int flag=1;
-        for( j=i+1;j<s.size();j++)
+        if(arr[s[i]]==0)
         {
-            if(s[i]==s[j])
-            {
-                flag=0;
-                s[j]=0;
-                count++;
-            }
+            arr[s[i]]=1;
+            result+=s[i];
         }
-        if(flag)
-        {
 
-        s[i]=s[j];
-        cout<<s[j];
-        } 
     }
-    // x =x-count;
-    // cout<<count;
-    // if(x%2==0) cout<<"CHAT WITH HER!"<<endl;
-    // else cout<<" IGNORE HIM!"<<endl;
+    if(result.size() % 2==0) cout<<"CHAT WITH HER!"<<endl;
+    else cout<<"IGNORE HIM!"<<endl;
 }
