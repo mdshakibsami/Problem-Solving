@@ -8,4 +8,5 @@ flag.cpp
 test.cpp
 EvenOddIncrement.cpp
 TheatreSquare.cpp
+stringTask.cpp
 *.exe
