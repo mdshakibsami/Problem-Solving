@@ -4,5 +4,6 @@ stringTask.cpp
 IWannaBeTheGuy.cpp
 DivisibilityProblem.cpp
 arrivalOfTheGeneral.cpp
-
+KefaAndFirstSteps.cpp
+taxi.cpp
 *.exe
