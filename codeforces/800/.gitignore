@@ -9,4 +9,5 @@ taxi.cpp
 Puzzles.cpp
 T_Primes.cpp
 XeniaAndRingroad.cpp
+CutRibbon.cpp
 *.exe
