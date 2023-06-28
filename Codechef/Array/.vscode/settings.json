@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "NUM239.C": "cpp"
+        "NUM239.C": "cpp",
+        "ostream": "cpp"
     }
 }
