@@ -10,4 +10,5 @@ Puzzles.cpp
 T_Primes.cpp
 XeniaAndRingroad.cpp
 CutRibbon.cpp
+ShortSubstrings.cpp
 *.exe
