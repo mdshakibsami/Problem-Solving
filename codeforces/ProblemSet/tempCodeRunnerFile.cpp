@@ -1,1 +1,1 @@
-   int x;
+cout<<i<<j<<endl;

@@ -8,4 +8,5 @@ XeniaAndRingroad.cpp
 CutRibbon.cpp
 ShortSubstrings.cpp
 TeamOlympiad.cpp
+testp.cpp
 *.exe
