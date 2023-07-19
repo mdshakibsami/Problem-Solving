@@ -10,7 +10,6 @@ int main()
     {
         int n;
         cin>>n;
-        int arr[n];
         int a=1,even=0,odd=0;
         for(int i=0;i<n;i++)
         {
@@ -27,6 +26,7 @@ int main()
                 a=1;
             }
         }
+    
         if(odd==even) cout<<odd<<endl;
         else cout<<-1<<endl;
     }
