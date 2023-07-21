@@ -44,8 +44,8 @@ int main()
     {
         if(a-(n-1)==b)
         {
-        cout<<1<<endl;
-        int z=n-1;
+        cout<<0<<endl;
+        int z=n-2;
         while (z--)
         {
             if(a>0)
@@ -59,6 +59,16 @@ int main()
                 cout<<0<<":"<<1<<endl;
                 b--;
             }
+        }
+        if(a>b)
+        {
+            cout<<0<<":"<<b-(b-1)<<endl;
+            b--;
+        }
+        else 
+        {
+            cout<<a-(a-1)<<":"<<0<<endl;
+            b--;
         }
         cout<<a<<":"<<b<<endl;
         }
