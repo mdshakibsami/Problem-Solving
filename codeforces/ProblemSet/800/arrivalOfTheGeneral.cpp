@@ -5,7 +5,7 @@ int main()
 {
     int n, min = 200, max = -1, maxI, minI;
     cin >> n;
-    int arr[n];
+    int arr[n+1];
     for (int i = 1; i <= n; i++)
     {
         cin >> arr[i];

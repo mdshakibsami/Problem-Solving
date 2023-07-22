@@ -27,10 +27,10 @@ int main()
             inMin = true;
         }
     }
-    if (inMin)
+   if (inMin)
     {
         cout << index << " " << index + 1 << endl;
-    }
+   }
     else
         cout << 1 << " " << n;
 }
