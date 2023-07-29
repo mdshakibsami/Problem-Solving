@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int i, num = 1, n;
+    int num = 1, n;
     scanf("%d", &n);
     while (n > 0)
     {
         num++;
         int flag=1;
-        for (i = 2; i < num; i++)
+        for (int i = 2; i < num; ++i)
         {
             if (num % i == 0)
             {
@@ -21,6 +21,5 @@ int main()
             n--;
         }
     }
-
     return 0;
 }

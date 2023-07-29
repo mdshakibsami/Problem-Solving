@@ -14,23 +14,20 @@ Palindrome? Yes
 */
 
 #include<stdio.h>
-int main(){
-
+int main()
+{
 printf("Enter a number: ");
-int n,r,temp,rev=0;
+int n,temp,rev=0;
 scanf("%d",&n);
 temp = n;
-while(temp > 0){
-    r = temp%10;
-    rev = rev*10+r;
+while(temp > 0)
+{
+    rev = rev*10+temp%10;
     temp = temp/10;
+}
+if(rev==n) printf("Yes,%d is a palindrome number",n);
+else printf("NO,%d is not a palindrome number",n);
 
-}
-if(rev==n){
-    printf("Yes,%d is a palindrome number",n);
-}else{
-    printf("NO,%d is not a palindrome number",n);
-}
 return 0;
 }
 

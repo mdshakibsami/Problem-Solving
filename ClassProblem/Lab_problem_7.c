@@ -3,8 +3,7 @@ int main()
 {
     int n, i, row, col;
     scanf("%d", &n);
-
-
+    //need some modification
     for (row = 1; row <= n; row++)
     {
         for(col=n-row;col>0;col--)
