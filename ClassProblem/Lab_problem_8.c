@@ -2,7 +2,6 @@
 #include<stdio.h>
 int main()
 {
-    
 int n,row,col;
 printf("Enter a number\n");
 scanf("%d",&n);
