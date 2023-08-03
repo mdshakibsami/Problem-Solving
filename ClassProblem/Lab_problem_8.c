@@ -15,6 +15,7 @@ for(row=n;row>0;row--)
     }
     printf("\n");
 
+
 }
 return 0;
 
