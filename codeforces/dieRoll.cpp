@@ -8,7 +8,7 @@ int main()
     int count = 0;
     if (w > y)
     {
-        w = 6 - w + 1;
+        w =  6 -  w + 1;
 
         if (6 % w == 0)
             cout << 1 << "/" << (6 / w) << endl;
