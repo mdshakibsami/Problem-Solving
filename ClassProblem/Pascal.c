@@ -3,15 +3,14 @@ int main()
 {
     int n, i, row, col;
     scanf("%d", &n);
-    //need some modification
     for (row = 1; row <= n; row++)
     {
-        for(col=n-row;col>0;col--)
-            printf(" ");
+        for(int i=0;i<n-row;i++)
+            printf("   ");
         int p = 1;
         for (col = 1; col <= row; col++)
         {
-            printf("%d ", p);
+            printf("%5d ", p);
             p = p * (row - col) / col;
         }
         printf("\n");
