@@ -22,6 +22,4 @@ int main()
     }
     int month=(index+n)%12;
     cout<<v[month]<<endl;
-
-    
 }
