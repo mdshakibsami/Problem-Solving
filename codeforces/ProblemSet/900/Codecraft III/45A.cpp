@@ -9,6 +9,7 @@ int main()
     cin.tie(nullptr);
     vector<string>v={"January","February","March","April","May","June","July","August","September","October","November","December"};
     int n;
+    
     string s;
     cin>>s>>n;
     int index;
