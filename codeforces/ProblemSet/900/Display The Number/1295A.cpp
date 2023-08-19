@@ -1,3 +1,7 @@
+/*
+https://codeforces.com/problemset/problem/1295/A
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
