@@ -17,7 +17,6 @@ int main()
             for(int i=0;i<x;++i) cout<<1;
             cout<<endl;
         }
-        else if(n==3) cout<<7<<endl;
         else 
         {
             n-=3;
