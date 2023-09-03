@@ -10,5 +10,4 @@ int main()
         printf("%d\n", chefinaAge);
     }
 
-    return 0;
 }
