@@ -4,6 +4,7 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
+    //this algo is more efficient 
 
     int t;
     cin>>t;
