@@ -33,6 +33,7 @@ int main()
 
             while (k--)
             {
+                if( v1[0]<v2[0])
                 int temp = v1[0];
                 v1[0] = v2[0];
                 v2[0] = temp;
